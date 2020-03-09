@@ -3,8 +3,8 @@
 
 def square_array(array)
   i = 0 
-  
-  array.each {|num| num ** 2}
+  array.each do {|num| num ** 2}
+ end
 end
 
 
